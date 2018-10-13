@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { Environment } from '../../environments/environment';
 import { Observable } from 'rxjs';
 import { DisplayService } from '../../Services/display.service';
 

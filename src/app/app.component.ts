@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
-import { AngularFireDatabase } from 'angularfire2/database';
-import { Environment } from '../environments/environment';
+import { Environment } from '../firebase-env/firebase-env';
 import { Observable } from 'rxjs';
 import { PlayerComponent } from './Player/player.component';
 import { DisplayService } from '../Services/display.service';
@@ -17,7 +16,7 @@ export class AppComponent  {
   test: any;
   
 
-  constructor(public db: AngularFireDatabase,public displaying: DisplayService){  
+  constructor(public displaying: DisplayService){  
     
   }
 
